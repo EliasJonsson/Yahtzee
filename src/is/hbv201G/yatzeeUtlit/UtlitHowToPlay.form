@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" pref="420" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                      <Component id="jTitill" min="-2" pref="348" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="144" max="-2" attributes="0"/>
+              <Component id="jBack" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+              <Component id="jTitill" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="300" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jBack" pref="39" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextPane" name="jHowToPlayTextPane">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="1. Til &#xfe;ess a&#xf0; byrja n&#xfd;jan leik smellir ma&#xf0;ur &#xe1;&#xa;    &quot;Byrja n&#xfd;jan leik&quot; e&#xf0;a &#xe1; Skr&#xe1;-&gt; N&#xfd;r leikur&#xa;    &#xe1; valmyndarsl&#xe1;nni.&#xa;&#xa;2. Til &#xfe;ess a&#xf0; frysta teninga &#xfd;tir ma&#xf0;ur anna&#xf0; hvort &#xe1; &#xa;    teningana sj&#xe1;lfa e&#xf0;a fer &#xed; valmyndarsl&#xe1;nna efst og &#xa;    &#xfd;tir &#xe1; a&#xf0;ger&#xf0;ir-&gt;Frysta teninga og velur s&#xed;&#xf0;an &#xa;    teninginn sem &#xe1; a&#xf0; frysta.&#xa;&#xa;3. Til &#xfe;ess a&#xf0; kasta teningunum smellir ma&#xf0;ur anna&#xf0;&#xa;    hvort &#xe1; &quot;Kasta Teningum&quot; hnappinn e&#xf0;a &#xe1; A&#xf0;ger&#xf0;ir&#xa;    -&gt; Kasta Teningum &#xe1; valmyndarsl&#xe1;nni.&#xa;&#xa;4. Ef spila&#xf0; er vi&#xf0; t&#xf6;lvuna er nau&#xf0;synlegt a&#xf0; b&#xed;&#xf0;a eftir a&#xf0; &#xa;    t&#xf6;lvan kl&#xe1;ri sinn leik, en s&#xed;&#xf0;asti leikur t&#xf6;lvunnar er lita&#xf0;ur &#xa;    me&#xf0; rau&#xf0;u &#xe1; stigat&#xf6;fluna.&#xa;&#xa;5. Til &#xfe;ess a&#xf0; H&#xe6;tta &#xed; Yatzze leik er anna&#xf0; hvort smellt &#xe1; &#xa;    h&#xe6;tta e&#xf0;a &#xe1; skr&#xe1;-&gt;H&#xe6;tta leik &#xed; valmyndarsl&#xe1;nni.&#xa;&#xa;6. H&#xe6;gt er a&#xf0; komast aftur &#xed; a&#xf0;alvalmynd me&#xf0; &#xfe;v&#xed; a&#xf0;&#xa;    smella &#xe1; &quot;A&#xf0;alvalmynd&quot; e&#xf0;a &#xe1; Skr&#xe1;-&gt;A&#xf0;alvalmynd&#xa;    &#xe1; valmyndarsl&#xe1;nni.&#xa;&#xa;7. &#xde;egar leik l&#xfd;kur er notanda tilkynnt hvort hann hafi&#xa;    unni&#xf0; t&#xf6;lvuna, ef hann valdi a&#xf0; keppa vi&#xf0; t&#xf6;lvuna.&#xa;    Ef hann s&#xed;&#xf0;ar smellur &#xe1; &quot;Halda &#xe1;fram&quot; hnappinn er&#xa;    honum tilkynnt um hvot hann hafi komist &#xe1; topp 10&#xa;    listann. Notanda er strax tilkynnt a&#xf0; leik loknum hvort&#xa;    hann hafi komist &#xe1; topp 10 listann ef hann valdi a&#xf0;&#xa;    spila einn.&#xa;"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jTitill">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Lucida Grande" size="24" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Hvernig spilar ma&#xf0;ur Yatzee?"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jBack">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fara aftur &#xed; leik"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBackActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

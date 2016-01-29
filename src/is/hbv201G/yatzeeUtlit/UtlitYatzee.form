@@ -1,0 +1,1007 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="jFile">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Skr&#xe1;"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jNewGameMenu">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+N"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="N&#xfd;r leikur"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jNewGameMenuActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMainMenu">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+M"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="A&#xf0;alvalmynd"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMainMenuActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JPopupMenu$Separator" name="jSeparator4">
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jQuitMenu">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+Q"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="H&#xe6;tta leik"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jQuitMenuActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jAdgerdir">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="A&#xf0;ger&#xf0;ir"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jKastaMenu">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+K"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Kasta Teningum"/>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jKastaMenuActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <Menu class="javax.swing.JMenu" name="jFrystaTeningaMenu">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Frysta Teninga"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JCheckBoxMenuItem" name="jTeningurMenu1">
+                  <Properties>
+                    <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                      <KeyStroke key="Ctrl+1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Teningur 1"/>
+                    <Property name="enabled" type="boolean" value="false"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTeningurMenu1ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JCheckBoxMenuItem" name="jTeningurMenu2">
+                  <Properties>
+                    <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                      <KeyStroke key="Ctrl+2"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Teningur 2"/>
+                    <Property name="enabled" type="boolean" value="false"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTeningurMenu2ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JCheckBoxMenuItem" name="jTeningurMenu3">
+                  <Properties>
+                    <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                      <KeyStroke key="Ctrl+3"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Teningur 3"/>
+                    <Property name="enabled" type="boolean" value="false"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTeningurMenu3ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JCheckBoxMenuItem" name="jTeningurMenu4">
+                  <Properties>
+                    <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                      <KeyStroke key="Ctrl+4"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Teningur 4"/>
+                    <Property name="enabled" type="boolean" value="false"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTeningurMenu4ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JCheckBoxMenuItem" name="jTeningurMenu5">
+                  <Properties>
+                    <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                      <KeyStroke key="Ctrl+5"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Teningur 5"/>
+                    <Property name="enabled" type="boolean" value="false"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTeningurMenu5ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jHelpMenu">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Hj&#xe1;lp"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jRulesMenu">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Leikreglur"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jRulesMenuActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jHowToPlayMenu">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Hvernig &#xe1; a&#xf0; spila"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jHowToPlayMenuActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Yatzee"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar1"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="21" pref="21" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jSeparator2" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jSeparator1" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <Component id="jTeningur1" min="-2" pref="90" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jTeningur2" min="-2" pref="90" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jTeningur3" min="-2" pref="90" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jTeningur4" min="-2" pref="90" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jTeningur5" min="-2" pref="90" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jVeljaFjarka" min="-2" pref="127" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jPlayerBirtaFjarka" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="jVeljaThrista" alignment="1" min="-2" pref="127" max="-2" attributes="0"/>
+                                          <Component id="jVeljaTvista" alignment="1" min="-2" pref="127" max="-2" attributes="0"/>
+                                          <Component id="jVeljaAsa" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="bonus" min="-2" pref="46" max="-2" attributes="0"/>
+                                          <Component id="sumPart" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="79" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="playerLabel1" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                                      <Component id="userLabel1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="jPlayerBirtaBonus" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="jCompBirtaBonus" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Component id="jPlayerBirtaSumPart" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="jCompBirtaSumPart" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Component id="jPlayerBirtaAsa" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="jCompBirtaAsa" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Component id="jCompBirtaSexur" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jCompBirtaFimmur" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jCompBirtaFjarka" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jCompBirtaThrista" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jCompBirtaTvista" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="133" pref="133" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jPlayerBirtaTvista" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jPlayerBirtaThrista" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jVeljaFimmur" pref="127" max="32767" attributes="0"/>
+                                  <Component id="jVeljaSexur" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jPlayerBirtaSexur" alignment="0" min="-2" pref="27" max="-2" attributes="0"/>
+                                  <Component id="jPlayerBirtaFimmur" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                              <Component id="totalScore" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                              <Component id="jPlayerBirtaHeildarSkor" min="-2" pref="27" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jVeljaTakaSens" max="32767" attributes="0"/>
+                                  <Component id="jVeljaFullHouse" max="32767" attributes="0"/>
+                                  <Component id="jVeljaEittPar" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="jVeljaTvoPor" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="jVeljaThreeOfaKind" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="jVeljaFourOfaKind" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="jVeljaSmallRow" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="jVeljaBigRow" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jVeljaYatzee" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jPlayerBirtaThreeOfaKind" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jPlayerBirtaFourOfaKind" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jPlayerBirtaSmallRow" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jPlayerBirtaBigRow" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jPlayerBirtaTvoPor" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="playerLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jPlayerBirtaEittPar" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jPlayerBirtaFullHouse" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jPlayerBirtaYatzee" min="-2" pref="27" max="-2" attributes="0"/>
+                                          <Component id="jPlayerBirtaTakaSensinn" min="-2" pref="27" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="userLabel2" min="-2" max="-2" attributes="0"/>
+                                          <Group type="102" attributes="0">
+                                              <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                                      <Component id="jCompBirtaTvoPor" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="jCompBirtaEittPar" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="jCompBirtaThreeOfaKind" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="jCompBirtaFourOfaKind" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="jCompBirtaSmallRow" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="jCompBirtaBigRow" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="jCompBirtaFullHouse" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="jCompBirtaTakaSensinn" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="jCompBirtaYatzee" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Component id="jCompBirtaHeildarSkor" alignment="0" min="-2" pref="27" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Component id="jSeparator3" min="-2" pref="22" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jFjoldiKastaLabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="jKastaTeningum" min="-2" pref="137" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jNyrLeikur" min="-2" pref="129" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jMenu" min="-2" pref="129" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jQuit" min="-2" pref="129" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="jTeningur1" min="-2" pref="88" max="-2" attributes="0"/>
+                  <Component id="jTeningur3" min="-2" pref="88" max="-2" attributes="0"/>
+                  <Component id="jTeningur4" min="-2" pref="88" max="-2" attributes="0"/>
+                  <Component id="jTeningur5" min="-2" pref="88" max="-2" attributes="0"/>
+                  <Component id="jTeningur2" min="-2" pref="88" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jSeparator1" min="-2" pref="10" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="9" pref="9" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="16" pref="16" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="3" attributes="0">
+                                                  <Component id="jPlayerBirtaEittPar" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jCompBirtaAsa" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jVeljaEittPar" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="3" attributes="0">
+                                                  <Component id="jPlayerBirtaTvoPor" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jCompBirtaTvista" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jCompBirtaTvoPor" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jVeljaTvoPor" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="3" attributes="0">
+                                                  <Component id="jPlayerBirtaThreeOfaKind" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jCompBirtaThrista" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jCompBirtaThreeOfaKind" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jVeljaThreeOfaKind" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Group type="103" groupAlignment="3" attributes="0">
+                                                  <Component id="playerLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="userLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="jCompBirtaEittPar" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jPlayerBirtaFourOfaKind" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jCompBirtaFjarka" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jCompBirtaFourOfaKind" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jVeljaFourOfaKind" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jPlayerBirtaSmallRow" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jCompBirtaFimmur" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jCompBirtaSmallRow" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jVeljaSmallRow" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jPlayerBirtaBigRow" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jCompBirtaSexur" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jCompBirtaBigRow" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jVeljaBigRow" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jPlayerBirtaFullHouse" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jCompBirtaFullHouse" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jVeljaFullHouse" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jPlayerBirtaTakaSensinn" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jCompBirtaTakaSensinn" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jVeljaTakaSens" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jPlayerBirtaYatzee" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jCompBirtaYatzee" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jVeljaYatzee" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="playerLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="userLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jPlayerBirtaAsa" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jVeljaAsa" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jPlayerBirtaTvista" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jVeljaTvista" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jPlayerBirtaThrista" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jVeljaThrista" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jPlayerBirtaFjarka" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jVeljaFjarka" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jPlayerBirtaFimmur" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jVeljaFimmur" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jPlayerBirtaSexur" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jVeljaSexur" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace pref="101" max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jPlayerBirtaSumPart" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="sumPart" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jCompBirtaSumPart" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="totalScore" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jPlayerBirtaHeildarSkor" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jCompBirtaBonus" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jPlayerBirtaBonus" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jCompBirtaHeildarSkor" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="bonus" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="-2" pref="109" max="-2" attributes="0"/>
+                              <Component id="jKastaTeningum" min="-2" pref="108" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jFjoldiKastaLabel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jSeparator3" min="-2" pref="373" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Component id="jSeparator2" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jNyrLeikur" alignment="3" min="-2" pref="56" max="-2" attributes="0"/>
+                  <Component id="jMenu" alignment="3" min="-2" pref="56" max="-2" attributes="0"/>
+                  <Component id="jQuit" alignment="3" min="-2" pref="56" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="jNyrLeikur">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Byrja n&#xfd;jan leik"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jNyrLeikurActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jKastaTeningum">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Kasta Teningum"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jKastaTeningumActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jPlayerBirtaAsa">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jPlayerBirtaTvista">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jPlayerBirtaThrista">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jPlayerBirtaFjarka">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jPlayerBirtaFimmur">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jPlayerBirtaSexur">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jPlayerBirtaTakaSensinn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jPlayerBirtaYatzee">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jTeningur1">
+      <Events>
+        <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jTeningur1MousePressed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_SerializeTo" type="java.lang.String" value="UtlitYatzee_jTeningur1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jTeningur2">
+      <Events>
+        <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jTeningur2MousePressed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jTeningur3">
+      <Events>
+        <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jTeningur3MousePressed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="playerLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xde;&#xfa;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="userLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="J&#xf3;n"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jTeningur4">
+      <Events>
+        <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jTeningur4MousePressed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jTeningur5">
+      <Events>
+        <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jTeningur5MousePressed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="sumPart">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="33" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Summa"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="bonus">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="cc" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="B&#xf3;nus"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jPlayerBirtaBonus">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="cc" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jPlayerBirtaSumPart">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="33" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator1">
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator2">
+    </Component>
+    <Component class="javax.swing.JLabel" name="playerLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xde;&#xfa;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="userLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="J&#xf3;n"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="totalScore">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Lucida Grande" size="13" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="33" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Heildarskor"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jPlayerBirtaHeildarSkor">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Lucida Grande" size="13" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="33" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jPlayerBirtaThreeOfaKind">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jPlayerBirtaFourOfaKind">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jPlayerBirtaSmallRow">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jPlayerBirtaBigRow">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator3">
+      <Properties>
+        <Property name="orientation" type="int" value="1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jPlayerBirtaFullHouse">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jPlayerBirtaEittPar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jPlayerBirtaTvoPor">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jFjoldiKastaLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fj&#xf6;ldi kasta eftir: 3 "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jCompBirtaAsa">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jCompBirtaTvista">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jCompBirtaThrista">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jCompBirtaFjarka">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jCompBirtaFimmur">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jCompBirtaSexur">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jCompBirtaEittPar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jCompBirtaTvoPor">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jCompBirtaThreeOfaKind">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jCompBirtaFourOfaKind">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jCompBirtaSmallRow">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jCompBirtaBigRow">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jCompBirtaFullHouse">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jCompBirtaTakaSensinn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jCompBirtaYatzee">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jCompBirtaSumPart">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="33" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jCompBirtaBonus">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="cc" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jCompBirtaHeildarSkor">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Lucida Grande" size="13" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="33" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jVeljaAsa">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xc1;sar"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jVeljaAsaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jVeljaTvista">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tvistar"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jVeljaTvistaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jVeljaThrista">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xde;ristar"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jVeljaThristaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jVeljaFjarka">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fjarkar"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jVeljaFjarkaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jVeljaFimmur">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fimmur"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jVeljaFimmurActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jVeljaSexur">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sexur"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jVeljaSexurActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jVeljaEittPar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Eitt par"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jVeljaEittParActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jVeljaTvoPor">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tv&#xf6; P&#xf6;r"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jVeljaTvoPorActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jVeljaThreeOfaKind">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xde;r&#xed;r eins"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jVeljaThreeOfaKindActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jVeljaFourOfaKind">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fj&#xf3;rir eins"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jVeljaFourOfaKindActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jVeljaSmallRow">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="L&#xed;til r&#xf6;&#xf0;"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jVeljaSmallRowActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jVeljaBigRow">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="St&#xf3;r r&#xf6;&#xf0;"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jVeljaBigRowActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jVeljaFullHouse">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fullt h&#xfa;s"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jVeljaFullHouseActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jVeljaTakaSens">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Taka s&#xe9;nsinn"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jVeljaTakaSensActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jVeljaYatzee">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Yatzee"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jVeljaYatzeeActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jMenu">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="A&#xf0;alvalmynd"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jQuit">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="99" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="H&#xe6;tta &#xed; Yatzee"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jQuitActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
